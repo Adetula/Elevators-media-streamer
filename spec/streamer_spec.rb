@@ -16,9 +16,9 @@ describe Streamer do
     end
 
     context "This test checks if api url is correct in relation with the action" do
-        it "returns a Joke" do
+        it "returns covid is real" do
             result = Streamer.getContent("random_joke") 
-            expect(result).to include("<label>It is a Joke</label>")
+            expect(result).to include("<label>Covid is real</label>")
         end
     end
 
