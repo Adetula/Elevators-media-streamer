@@ -15,6 +15,13 @@ class Streamer
             if action.include? "covid"
                 res = RestClient.get("https://localcoviddata.com/covid19/v1/cases/covidTracking?state=CA&daysInPast=7")
                 puts res
+                hash = JSON.parse(res.first)
+                puts hash
+                html_body="<div style='margin:0 auto; width:80%'>
+                            <p><label>"+hash['setup'].to_s+"</label><p>
+                            <p><label>"+hash['punchline'].to_s+"</label><p>
+                            <p><label>Covid is real</label><p>
+                            </div>"
             end
         end
     end
