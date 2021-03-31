@@ -11,7 +11,7 @@ describe Streamer do
     describe "getContent" do
 
         context "This test checks if the getContent method exists" do
-            it "streamer has to containt the getContent method" do
+            it "streamer has to contain the getContent method" do
                 expect(Streamer).to  respond_to(:getContent)
             end
         end
