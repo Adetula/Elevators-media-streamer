@@ -9,15 +9,15 @@ class Streamer
     def self.getContent(action ="")
         if action.length > 0
 
-            if action.include? "random_joke"
-                res = RestClient.get("https://official-joke-api.appspot.com/random_joke")
+            if action.include? "activity"
+                res = RestClient.get("https://www.boredapi.com/api/activity")
                 puts res
                 hash = JSON.parse(res)
                 html_body="<div style='margin:0 auto; width:80%'>
                                     
-                                    <p><label>"+hash['setup'].to_s+"</label></p>
-                                    <p><label>"+hash['punchline'].to_s+"</label></p>
-                                    <p><label>It is a Joke</label></p>
+                                    <p><label>"+hash['type'].to_s+"</label></p>
+                                    <p><label>"+hash['activity'].to_s+"</label></p>
+                                    <p><label>Get Working</label></p>
                                 </div>"
             
                 puts html_body
