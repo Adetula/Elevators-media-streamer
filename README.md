@@ -1,34 +1,18 @@
-Rocket-Elevator-Foundation
-🚀	Consolidation	📈
+Elevators-media-streamer
+🚀	Test Driven Development/ Behaviourial Driven Dvelopment (TDD)	📈
 
 Members of this week's team
 
-Olaolu Adetula -
+Olaolu Adetula
  
 🎯 About
 
-Week 9 in CodeBoxx is the consolidation week where all that we have learnt in the weeks below was tested: 
+Week 10 in CodeBoxx is the Test Driven Development week where unit tests of code are executed:
 
-Please note that I handled Zendesk for my team 2 weeks ago so I could not handle it this week as my trial perod had expired.
+The content management module was entirely developed with the "red-green-refactor" method and all traces of the application of this method as requested in the deliverables is found in the `code`'log/rspec.out'`code` file in the project repo.
 
 
-Week 4 - The main goal of this week is to transform the static site previously developed during the Genesis program and turn it into a web application on MVC (Model - View - Controller) foundations. The site must be in a state that allows you to create a new section that saves the Javascript form that calculates an estimate in the form of a purchase order.
-Expanding the relational database model
-Seeding data base with data NB: real address are used
-
-Week 5 - During this week, participants are exposed to a more elaborate data model and must perform basic query exercises. They will be asked to create tables, alter them and extend the concepts managed by their information system.
-Two types of databases will be requested for this exercise
-a- A relational database
-b- A data warehouse for decision-making
-
-Week 7 - This week, the task set to us is to integrate 7 different APIs into the Rocket Elevators website. those APIs include:
-1. Google Maps
-2. Twilio
-3. Slack
-4. DropBox
-5. SendGrid
-6. IBM Watson
-7. ZenDesk 
+To get the results in the terminal, the code `code`bundle exec rspec --format documentation`code` is run.
  
  
 📌 Instructions to access to the admin panel:
