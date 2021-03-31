@@ -1,4 +1,9 @@
-require 'elevator_media/streamer'
+require 'nokogiri'
+require 'open-uri'
+require 'json'
+require 'rest-client'
+
+require 'ElevatorMedia/streamer'
 
 
 describe Streamer do 
@@ -26,13 +31,6 @@ describe Streamer do
                 expect(result).to include("<label>It is a Joke</label>")
             end
         end
-
-        # context "Test correct api url with ten jokes" do
-        #     it "returns ten jokes" do
-        #         result = Streamer.getContent("ten") 
-        #         expect(result).to include("<label>Ten</label>")
-        #     end
-        # end
 
         context "Test a wrong api url" do
             it "returns SocketError" do

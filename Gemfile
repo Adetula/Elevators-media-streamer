@@ -125,8 +125,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'rspec-rails', '~> 4.1.0'
 
-gem 'webmock', '~> 3.12', '>= 3.12.2'
-
 gem 'rest-client', '~> 2.1'
 
 gem 'json', '~> 2.5', '>= 2.5.1'
