@@ -9,10 +9,10 @@ Olaolu Adetula
 
 Week 10 in CodeBoxx is the Test Driven Development week where unit tests of code are executed:
 
-The content management module was entirely developed with the "red-green-refactor" method and all traces of the application of this method as requested in the deliverables is found in the `code`'log/rspec.out'`code` file in the project repo.
+The content management module was entirely developed with the "red-green-refactor" method and all traces of the application of this method as requested in the deliverables is found in the `log/rspec.out` file in the project repo.
 
 
-To get the results in the terminal, the code `code`bundle exec rspec --format documentation`code` is run.
+To get the results in the terminal, the code `bundle exec rspec --format documentation` is run.
  
  
 📌 Instructions to access to the admin panel:
