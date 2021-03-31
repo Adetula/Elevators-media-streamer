@@ -15,7 +15,11 @@ describe Streamer do
         expect(valium).to end_with "</div>"
     end
 
-    
-   
+    context "This test checks if api url is correct in relation with the action" do
+        it "returns a Joke" do
+            result = Streamer.getContent("random_joke") 
+            expect(result).to include("<label>It is a Joke</label>")
+        end
+    end
 
 end
