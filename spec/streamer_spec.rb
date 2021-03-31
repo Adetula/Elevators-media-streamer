@@ -1,28 +1,47 @@
-require 'ElevatorMedia/streamer'
+require 'elevator_media/streamer'
 
-describe Streamer do
+
+describe Streamer do 
 
     describe "getContent" do
-      
-        it "this is a string" do
-            streamerOne = Streamer.new
-            valium = streamerOne.getContent()
-            expect(valium).to be_a(String)
-        end
-    
 
-        it "returns an html tag as per requirement" do
-            streamOne = Streamer.new
-            valium = streamOne.getContent()
-            expect(valium).to start_with "<div>"
-            expect(valium).to end_with "</div>"
+        context "This test checks if the getContent method exists" do
+            it "streamer has to containt the getContent method" do
+                expect(Streamer).to  respond_to(:getContent)
+            end
+        end
+
+        context "This test verifies if url is not provided" do
+            it "returns RuntimeError" do
+                expect { Streamer.getContent() }.to raise_error { |error|
+                    expect(error).to be_a(RuntimeError)
+                }
+            end
+
         end
 
         context "This test checks if api url is correct in relation with the action" do
-            it "returns covid is real" do
-                result = Streamer.getContent("https://localcoviddata.com/covid19/v1/cases/covidTracking?state=CA&daysInPast=7") 
-                expect(result).to include("<label>Covid is real</label>")
+            it "returns a Joke" do
+                result = Streamer.getContent("random_joke") 
+                expect(result).to include("<label>It is a Joke</label>")
             end
         end
+
+        # context "Test correct api url with ten jokes" do
+        #     it "returns ten jokes" do
+        #         result = Streamer.getContent("ten") 
+        #         expect(result).to include("<label>Ten</label>")
+        #     end
+        # end
+
+        context "Test a wrong api url" do
+            it "returns SocketError" do
+                expect { Streamer.getContent("wrongurl") }.to raise_error { |error|
+                    expect(error).to be_a(SocketError)
+                }
+            end
+        end
+        
     end
+
 end
