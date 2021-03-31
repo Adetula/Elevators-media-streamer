@@ -24,7 +24,14 @@ class Streamer
                             </div>"
                 puts html_body
                 return html_body
+
+            elseif action.include? "wrongurl"
+                res = RestClient.get("https://wrongurl")
             end
+
+        else
+            raise RuntimeError.new "sorry"
+
         end
     end
         return "<div> stringify </div>"
