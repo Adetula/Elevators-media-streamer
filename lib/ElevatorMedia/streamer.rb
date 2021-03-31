@@ -22,6 +22,8 @@ class Streamer
                             <p><label>"+hash['punchline'].to_s+"</label><p>
                             <p><label>Covid is real</label><p>
                             </div>"
+                puts html_body
+                return html_body
             end
         end
     end

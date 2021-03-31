@@ -329,3 +329,19 @@ NoMethodError:
 Finished in 0.00004 seconds (files took 1.26 seconds to load)
 0 examples, 0 failures, 1 error occurred outside of examples
 
+
+Streamer
+  this is a string
+  returns an html tag as per requirement
+
+Finished in 0.00816 seconds (files took 1.46 seconds to load)
+2 examples, 0 failures
+
+
+Streamer
+  this is a string
+  returns an html tag as per requirement
+
+Finished in 0.00722 seconds (files took 1.48 seconds to load)
+2 examples, 0 failures
+
