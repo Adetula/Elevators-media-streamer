@@ -1,0 +1,331 @@
+No examples found.
+
+Finished in 0.0004 seconds (files took 0.22175 seconds to load)
+0 examples, 0 failures
+
+No examples found.
+
+Finished in 0.00045 seconds (files took 0.22937 seconds to load)
+0 examples, 0 failures
+
+
+An error occurred while loading ./spec/streamer_spec.rb.
+Failure/Error:
+  describe streamer do
+  
+  end
+
+NameError:
+  undefined local variable or method `streamer' for main:Object
+# ./spec/streamer_spec.rb:3:in `<top (required)>'
+No examples found.
+
+Finished in 0.00004 seconds (files took 0.25721 seconds to load)
+0 examples, 0 failures, 1 error occurred outside of examples
+
+
+An error occurred while loading ./spec/streamer_spec.rb.
+Failure/Error:
+  describe streamer do
+  
+  end
+
+NameError:
+  undefined local variable or method `streamer' for main:Object
+# ./spec/streamer_spec.rb:3:in `<top (required)>'
+No examples found.
+
+Finished in 0.00003 seconds (files took 0.16862 seconds to load)
+0 examples, 0 failures, 1 error occurred outside of examples
+
+
+An error occurred while loading ./spec/streamer_spec.rb.
+Failure/Error: require 'ElevatorMedia/streamer'
+
+SyntaxError:
+  /Users/mac/Desktop/codeboxx/Odyssey/Week 10/Rocket-Elevator-Foundation/lib/ElevatorMedia/streamer.rb:4: syntax error, unexpected end-of-input, expecting end
+# ./spec/streamer_spec.rb:1:in `require'
+# ./spec/streamer_spec.rb:1:in `<top (required)>'
+No examples found.
+
+Finished in 0.00003 seconds (files took 0.17104 seconds to load)
+0 examples, 0 failures, 1 error occurred outside of examples
+
+
+An error occurred while loading ./spec/streamer_spec.rb.
+Failure/Error: __send__(method, file)
+
+SyntaxError:
+  /Users/mac/Desktop/codeboxx/Odyssey/Week 10/Rocket-Elevator-Foundation/spec/streamer_spec.rb:6: syntax error, unexpected do, expecting end
+      do
+      ^~
+# /Users/mac/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/rspec-core-3.10.1/lib/rspec/core/configuration.rb:2112:in `load'
+# /Users/mac/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/rspec-core-3.10.1/lib/rspec/core/configuration.rb:2112:in `load_file_handling_errors'
+# /Users/mac/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/rspec-core-3.10.1/lib/rspec/core/configuration.rb:1615:in `block in load_spec_files'
+# /Users/mac/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/rspec-core-3.10.1/lib/rspec/core/configuration.rb:1613:in `each'
+# /Users/mac/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/rspec-core-3.10.1/lib/rspec/core/configuration.rb:1613:in `load_spec_files'
+# /Users/mac/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/rspec-core-3.10.1/lib/rspec/core/runner.rb:102:in `setup'
+# /Users/mac/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/rspec-core-3.10.1/lib/rspec/core/runner.rb:86:in `run'
+# /Users/mac/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/rspec-core-3.10.1/lib/rspec/core/runner.rb:71:in `run'
+# /Users/mac/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/rspec-core-3.10.1/lib/rspec/core/runner.rb:45:in `invoke'
+# /Users/mac/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/rspec-core-3.10.1/exe/rspec:4:in `<top (required)>'
+# /Users/mac/.rbenv/versions/2.6.6/bin/rspec:23:in `load'
+# /Users/mac/.rbenv/versions/2.6.6/bin/rspec:23:in `<top (required)>'
+# /Users/mac/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/bundler-2.2.15/lib/bundler/cli/exec.rb:63:in `load'
+# /Users/mac/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/bundler-2.2.15/lib/bundler/cli/exec.rb:63:in `kernel_load'
+# /Users/mac/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/bundler-2.2.15/lib/bundler/cli/exec.rb:28:in `run'
+# /Users/mac/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/bundler-2.2.15/lib/bundler/cli.rb:494:in `exec'
+# /Users/mac/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/bundler-2.2.15/lib/bundler/vendor/thor/lib/thor/command.rb:27:in `run'
+# /Users/mac/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/bundler-2.2.15/lib/bundler/vendor/thor/lib/thor/invocation.rb:127:in `invoke_command'
+# /Users/mac/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/bundler-2.2.15/lib/bundler/vendor/thor/lib/thor.rb:392:in `dispatch'
+# /Users/mac/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/bundler-2.2.15/lib/bundler/cli.rb:30:in `dispatch'
+# /Users/mac/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/bundler-2.2.15/lib/bundler/vendor/thor/lib/thor/base.rb:485:in `start'
+# /Users/mac/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/bundler-2.2.15/lib/bundler/cli.rb:24:in `start'
+# /Users/mac/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/bundler-2.2.15/exe/bundle:49:in `block in <top (required)>'
+# /Users/mac/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/bundler-2.2.15/lib/bundler/friendly_errors.rb:130:in `with_friendly_errors'
+# /Users/mac/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/bundler-2.2.15/exe/bundle:37:in `<top (required)>'
+# /Users/mac/.rbenv/versions/2.6.6/bin/bundle:23:in `load'
+# /Users/mac/.rbenv/versions/2.6.6/bin/bundle:23:in `<main>'
+# 
+#   Showing full backtrace because every line was filtered out.
+#   See docs for RSpec::Configuration#backtrace_exclusion_patterns and
+#   RSpec::Configuration#backtrace_inclusion_patterns for more information.
+No examples found.
+
+Finished in 0.00004 seconds (files took 0.36258 seconds to load)
+0 examples, 0 failures, 1 error occurred outside of examples
+
+
+An error occurred while loading ./spec/streamer_spec.rb.
+Failure/Error: __send__(method, file)
+
+SyntaxError:
+  /Users/mac/Desktop/codeboxx/Odyssey/Week 10/Rocket-Elevator-Foundation/spec/streamer_spec.rb:10: syntax error, unexpected do, expecting end
+      do
+      ^~
+# /Users/mac/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/rspec-core-3.10.1/lib/rspec/core/configuration.rb:2112:in `load'
+# /Users/mac/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/rspec-core-3.10.1/lib/rspec/core/configuration.rb:2112:in `load_file_handling_errors'
+# /Users/mac/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/rspec-core-3.10.1/lib/rspec/core/configuration.rb:1615:in `block in load_spec_files'
+# /Users/mac/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/rspec-core-3.10.1/lib/rspec/core/configuration.rb:1613:in `each'
+# /Users/mac/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/rspec-core-3.10.1/lib/rspec/core/configuration.rb:1613:in `load_spec_files'
+# /Users/mac/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/rspec-core-3.10.1/lib/rspec/core/runner.rb:102:in `setup'
+# /Users/mac/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/rspec-core-3.10.1/lib/rspec/core/runner.rb:86:in `run'
+# /Users/mac/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/rspec-core-3.10.1/lib/rspec/core/runner.rb:71:in `run'
+# /Users/mac/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/rspec-core-3.10.1/lib/rspec/core/runner.rb:45:in `invoke'
+# /Users/mac/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/rspec-core-3.10.1/exe/rspec:4:in `<top (required)>'
+# /Users/mac/.rbenv/versions/2.6.6/bin/rspec:23:in `load'
+# /Users/mac/.rbenv/versions/2.6.6/bin/rspec:23:in `<top (required)>'
+# /Users/mac/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/bundler-2.2.15/lib/bundler/cli/exec.rb:63:in `load'
+# /Users/mac/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/bundler-2.2.15/lib/bundler/cli/exec.rb:63:in `kernel_load'
+# /Users/mac/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/bundler-2.2.15/lib/bundler/cli/exec.rb:28:in `run'
+# /Users/mac/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/bundler-2.2.15/lib/bundler/cli.rb:494:in `exec'
+# /Users/mac/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/bundler-2.2.15/lib/bundler/vendor/thor/lib/thor/command.rb:27:in `run'
+# /Users/mac/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/bundler-2.2.15/lib/bundler/vendor/thor/lib/thor/invocation.rb:127:in `invoke_command'
+# /Users/mac/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/bundler-2.2.15/lib/bundler/vendor/thor/lib/thor.rb:392:in `dispatch'
+# /Users/mac/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/bundler-2.2.15/lib/bundler/cli.rb:30:in `dispatch'
+# /Users/mac/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/bundler-2.2.15/lib/bundler/vendor/thor/lib/thor/base.rb:485:in `start'
+# /Users/mac/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/bundler-2.2.15/lib/bundler/cli.rb:24:in `start'
+# /Users/mac/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/bundler-2.2.15/exe/bundle:49:in `block in <top (required)>'
+# /Users/mac/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/bundler-2.2.15/lib/bundler/friendly_errors.rb:130:in `with_friendly_errors'
+# /Users/mac/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/bundler-2.2.15/exe/bundle:37:in `<top (required)>'
+# /Users/mac/.rbenv/versions/2.6.6/bin/bundle:23:in `load'
+# /Users/mac/.rbenv/versions/2.6.6/bin/bundle:23:in `<main>'
+# 
+#   Showing full backtrace because every line was filtered out.
+#   See docs for RSpec::Configuration#backtrace_exclusion_patterns and
+#   RSpec::Configuration#backtrace_inclusion_patterns for more information.
+No examples found.
+
+Finished in 0.00008 seconds (files took 0.33861 seconds to load)
+0 examples, 0 failures, 1 error occurred outside of examples
+
+
+An error occurred while loading ./spec/streamer_spec.rb.
+Failure/Error: __send__(method, file)
+
+SyntaxError:
+  /Users/mac/Desktop/codeboxx/Odyssey/Week 10/Rocket-Elevator-Foundation/spec/streamer_spec.rb:10: syntax error, unexpected do, expecting end
+      do
+      ^~
+# /Users/mac/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/rspec-core-3.10.1/lib/rspec/core/configuration.rb:2112:in `load'
+# /Users/mac/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/rspec-core-3.10.1/lib/rspec/core/configuration.rb:2112:in `load_file_handling_errors'
+# /Users/mac/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/rspec-core-3.10.1/lib/rspec/core/configuration.rb:1615:in `block in load_spec_files'
+# /Users/mac/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/rspec-core-3.10.1/lib/rspec/core/configuration.rb:1613:in `each'
+# /Users/mac/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/rspec-core-3.10.1/lib/rspec/core/configuration.rb:1613:in `load_spec_files'
+# /Users/mac/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/rspec-core-3.10.1/lib/rspec/core/runner.rb:102:in `setup'
+# /Users/mac/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/rspec-core-3.10.1/lib/rspec/core/runner.rb:86:in `run'
+# /Users/mac/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/rspec-core-3.10.1/lib/rspec/core/runner.rb:71:in `run'
+# /Users/mac/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/rspec-core-3.10.1/lib/rspec/core/runner.rb:45:in `invoke'
+# /Users/mac/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/rspec-core-3.10.1/exe/rspec:4:in `<top (required)>'
+# /Users/mac/.rbenv/versions/2.6.6/bin/rspec:23:in `load'
+# /Users/mac/.rbenv/versions/2.6.6/bin/rspec:23:in `<top (required)>'
+# /Users/mac/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/bundler-2.2.15/lib/bundler/cli/exec.rb:63:in `load'
+# /Users/mac/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/bundler-2.2.15/lib/bundler/cli/exec.rb:63:in `kernel_load'
+# /Users/mac/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/bundler-2.2.15/lib/bundler/cli/exec.rb:28:in `run'
+# /Users/mac/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/bundler-2.2.15/lib/bundler/cli.rb:494:in `exec'
+# /Users/mac/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/bundler-2.2.15/lib/bundler/vendor/thor/lib/thor/command.rb:27:in `run'
+# /Users/mac/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/bundler-2.2.15/lib/bundler/vendor/thor/lib/thor/invocation.rb:127:in `invoke_command'
+# /Users/mac/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/bundler-2.2.15/lib/bundler/vendor/thor/lib/thor.rb:392:in `dispatch'
+# /Users/mac/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/bundler-2.2.15/lib/bundler/cli.rb:30:in `dispatch'
+# /Users/mac/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/bundler-2.2.15/lib/bundler/vendor/thor/lib/thor/base.rb:485:in `start'
+# /Users/mac/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/bundler-2.2.15/lib/bundler/cli.rb:24:in `start'
+# /Users/mac/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/bundler-2.2.15/exe/bundle:49:in `block in <top (required)>'
+# /Users/mac/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/bundler-2.2.15/lib/bundler/friendly_errors.rb:130:in `with_friendly_errors'
+# /Users/mac/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/bundler-2.2.15/exe/bundle:37:in `<top (required)>'
+# /Users/mac/.rbenv/versions/2.6.6/bin/bundle:23:in `load'
+# /Users/mac/.rbenv/versions/2.6.6/bin/bundle:23:in `<main>'
+# 
+#   Showing full backtrace because every line was filtered out.
+#   See docs for RSpec::Configuration#backtrace_exclusion_patterns and
+#   RSpec::Configuration#backtrace_inclusion_patterns for more information.
+No examples found.
+
+Finished in 0.00004 seconds (files took 0.39354 seconds to load)
+0 examples, 0 failures, 1 error occurred outside of examples
+
+
+An error occurred while loading ./spec/streamer_spec.rb.
+Failure/Error: __send__(method, file)
+
+SyntaxError:
+  /Users/mac/Desktop/codeboxx/Odyssey/Week 10/Rocket-Elevator-Foundation/spec/streamer_spec.rb:10: syntax error, unexpected do, expecting end
+      do
+      ^~
+# /Users/mac/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/rspec-core-3.10.1/lib/rspec/core/configuration.rb:2112:in `load'
+# /Users/mac/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/rspec-core-3.10.1/lib/rspec/core/configuration.rb:2112:in `load_file_handling_errors'
+# /Users/mac/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/rspec-core-3.10.1/lib/rspec/core/configuration.rb:1615:in `block in load_spec_files'
+# /Users/mac/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/rspec-core-3.10.1/lib/rspec/core/configuration.rb:1613:in `each'
+# /Users/mac/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/rspec-core-3.10.1/lib/rspec/core/configuration.rb:1613:in `load_spec_files'
+# /Users/mac/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/rspec-core-3.10.1/lib/rspec/core/runner.rb:102:in `setup'
+# /Users/mac/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/rspec-core-3.10.1/lib/rspec/core/runner.rb:86:in `run'
+# /Users/mac/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/rspec-core-3.10.1/lib/rspec/core/runner.rb:71:in `run'
+# /Users/mac/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/rspec-core-3.10.1/lib/rspec/core/runner.rb:45:in `invoke'
+# /Users/mac/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/rspec-core-3.10.1/exe/rspec:4:in `<top (required)>'
+# /Users/mac/.rbenv/versions/2.6.6/bin/rspec:23:in `load'
+# /Users/mac/.rbenv/versions/2.6.6/bin/rspec:23:in `<top (required)>'
+# /Users/mac/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/bundler-2.2.15/lib/bundler/cli/exec.rb:63:in `load'
+# /Users/mac/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/bundler-2.2.15/lib/bundler/cli/exec.rb:63:in `kernel_load'
+# /Users/mac/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/bundler-2.2.15/lib/bundler/cli/exec.rb:28:in `run'
+# /Users/mac/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/bundler-2.2.15/lib/bundler/cli.rb:494:in `exec'
+# /Users/mac/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/bundler-2.2.15/lib/bundler/vendor/thor/lib/thor/command.rb:27:in `run'
+# /Users/mac/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/bundler-2.2.15/lib/bundler/vendor/thor/lib/thor/invocation.rb:127:in `invoke_command'
+# /Users/mac/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/bundler-2.2.15/lib/bundler/vendor/thor/lib/thor.rb:392:in `dispatch'
+# /Users/mac/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/bundler-2.2.15/lib/bundler/cli.rb:30:in `dispatch'
+# /Users/mac/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/bundler-2.2.15/lib/bundler/vendor/thor/lib/thor/base.rb:485:in `start'
+# /Users/mac/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/bundler-2.2.15/lib/bundler/cli.rb:24:in `start'
+# /Users/mac/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/bundler-2.2.15/exe/bundle:49:in `block in <top (required)>'
+# /Users/mac/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/bundler-2.2.15/lib/bundler/friendly_errors.rb:130:in `with_friendly_errors'
+# /Users/mac/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/bundler-2.2.15/exe/bundle:37:in `<top (required)>'
+# /Users/mac/.rbenv/versions/2.6.6/bin/bundle:23:in `load'
+# /Users/mac/.rbenv/versions/2.6.6/bin/bundle:23:in `<main>'
+# 
+#   Showing full backtrace because every line was filtered out.
+#   See docs for RSpec::Configuration#backtrace_exclusion_patterns and
+#   RSpec::Configuration#backtrace_inclusion_patterns for more information.
+No examples found.
+
+Finished in 0.00004 seconds (files took 0.31836 seconds to load)
+0 examples, 0 failures, 1 error occurred outside of examples
+
+
+Streamer
+  this is a string (FAILED - 1)
+
+Failures:
+
+  1) Streamer this is a string
+     Failure/Error: expect(var).to be_a(String)
+       expected nil to be a kind of String
+     # ./spec/streamer_spec.rb:7:in `block (2 levels) in <top (required)>'
+
+Finished in 0.02644 seconds (files took 0.14037 seconds to load)
+1 example, 1 failure
+
+Failed examples:
+
+rspec ./spec/streamer_spec.rb:4 # Streamer this is a string
+
+
+Streamer
+  this is a string (FAILED - 1)
+  returns an html tag as per requirement (FAILED - 2)
+  returns an html tag as per requirement (FAILED - 3)
+
+Failures:
+
+  1) Streamer this is a string
+     Failure/Error: expect(var).to be_a(String)
+       expected nil to be a kind of String
+     # ./spec/streamer_spec.rb:7:in `block (2 levels) in <top (required)>'
+
+  2) Streamer returns an html tag as per requirement
+     Failure/Error: var = streamerOne.getContent()
+
+     NameError:
+       undefined local variable or method `streamerOne' for #<RSpec::ExampleGroups::Streamer:0x00007ff9bec01fb0>
+     # ./spec/streamer_spec.rb:13:in `block (2 levels) in <top (required)>'
+
+  3) Streamer returns an html tag as per requirement
+     Failure/Error: var = streamerOne.getContent()
+
+     NameError:
+       undefined local variable or method `streamerOne' for #<RSpec::ExampleGroups::Streamer:0x00007ff9bec08d88>
+     # ./spec/streamer_spec.rb:19:in `block (2 levels) in <top (required)>'
+
+Finished in 0.04419 seconds (files took 0.2161 seconds to load)
+3 examples, 3 failures
+
+Failed examples:
+
+rspec ./spec/streamer_spec.rb:4 # Streamer this is a string
+rspec ./spec/streamer_spec.rb:11 # Streamer returns an html tag as per requirement
+rspec ./spec/streamer_spec.rb:17 # Streamer returns an html tag as per requirement
+
+
+Streamer
+  this is a string
+  returns an html tag as per requirement
+
+Finished in 0.0045 seconds (files took 0.19945 seconds to load)
+2 examples, 0 failures
+
+
+An error occurred while loading ./spec/features/external_request_spec.rb.
+Failure/Error:
+  feature 'External request' do
+    it 'queries FactoryGirl contributors on GitHub' do
+      uri = URI('https://api.github.com/repos/thoughtbot/factory_girl/contributors')
+  
+      response = Net::HTTP.get(uri)
+  
+      expect(response).to be_an_instance_of(String)
+    end
+  end
+
+NoMethodError:
+  undefined method `feature' for main:Object
+# ./spec/features/external_request_spec.rb:3:in `<top (required)>'
+
+Finished in 0.00005 seconds (files took 1.54 seconds to load)
+0 examples, 0 failures, 1 error occurred outside of examples
+
+
+An error occurred while loading ./spec/features/external_request_spec.rb.
+Failure/Error:
+  feature 'External request' do
+    it 'queries FactoryGirl contributors on GitHub' do
+      uri = URI('https://api.github.com/repos/thoughtbot/factory_girl/contributors')
+  
+      response = Net::HTTP.get(uri)
+  
+      expect(response).to be_an_instance_of(String)
+    end
+  end
+
+NoMethodError:
+  undefined method `feature' for main:Object
+# ./spec/features/external_request_spec.rb:3:in `<top (required)>'
+
+Finished in 0.00004 seconds (files took 1.26 seconds to load)
+0 examples, 0 failures, 1 error occurred outside of examples
+
