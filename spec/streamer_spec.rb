@@ -10,35 +10,50 @@ describe Streamer do
 
     describe "getContent" do
 
-        context "This test checks if the getContent method exists" do
-            it "streamer has to contain the getContent method" do
-                expect(Streamer).to  respond_to(:getContent)
-            end
-        end
+        context "Check the retuned value" do
+            it "check if the returned value containt a html tags" do
+              
+              streamer  = Streamer.new 
+              result = streamer.getContent("activity")
+              puts result
 
-        context "This test verifies if url is not provided" do
-            it "returns RuntimeError" do
-                expect { Streamer.getContent() }.to raise_error { |error|
-                    expect(error).to be_a(RuntimeError)
-                }
+              expect(result).to  start_with("<div style='margin:0 auto; width:80%'>")
+              expect(result).to  end_with("</div>")
+
+            end
+            it "check if the returned value is not empty" do
+                streamer  = Streamer.new 
+                result = streamer.getContent("activity")
+                puts result
+
+                expect(result.length).to be > 0
+          
+            end
+            it "check if the returned value is a string" do
+                streamer  = Streamer.new 
+                result = streamer.getContent("activity")
+                puts result
+
+                expect(result).to be_an_instance_of(String)
             end
 
-        end
+            it "check if the returned value comtains the word activity" do
+                streamer  = Streamer.new 
+                result = streamer.getContent("activity")
+                puts result
 
-        context "This test checks if api url is correct in relation with the action" do
-            it "returns a Joke" do
-                result = Streamer.getContent("activity") 
-                expect(result).to include("<label>Get Working</label>")
+                expect(result).to include("Activity")
             end
-        end
 
-        context "Test a wrong api url" do
-            it "returns SocketError" do
-                expect { Streamer.getContent("wrongurl") }.to raise_error { |error|
-                    expect(error).to be_a(SocketError)
-                }
+            it "check if the returned value comtains an argument" do
+                streamer  = Streamer.new 
+                expect { streamer.getContent()}.to raise_error { |error|
+                               expect(error).to be_a(RuntimeError)}
+
             end
+  
         end
+        
         
     end
 
