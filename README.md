@@ -14,6 +14,7 @@ The content management module was entirely developed with the "red-green-refacto
 
 To get the results in the terminal, the code `bundle exec rspec --format documentation` is run.
  
+ To get the results of the coverage of the code, click on the coverage folder and the index.html folder.
  
 📌 Gems used:
 1. gem 'rspec-rails', '~> 4.1.0'
@@ -21,3 +22,4 @@ To get the results in the terminal, the code `bundle exec rspec --format documen
 3. gem 'json', '~> 2.5', '>= 2.5.1'
 4. gem 'nokogiri', '~> 1.11', '>= 1.11.2'
 5. gem 'open_uri_redirections', '~> 0.2.1'
+6. gem 'simplecov', require: false, group: :test
