@@ -132,3 +132,5 @@ gem 'json', '~> 2.5', '>= 2.5.1'
 gem 'nokogiri', '~> 1.11', '>= 1.11.2'
 
 gem 'open_uri_redirections', '~> 0.2.1'
+
+gem 'simplecov', require: false, group: :test

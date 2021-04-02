@@ -12,12 +12,57 @@ describe QuotesController, :type => :controller do
             end
         end
         
-        context "validate create quote" do
+        context "validate create quote for commercial" do
             it "returns quote is save" do
                 params = {
                     "buildType" => "commercial",
                     "floors_residential" => 4,
                     "apartments-residential" => 14
+                }
+
+                get :create,  params: params  ,format: :json
+
+                puts response
+                expect(response.body).to include('You are being')
+            end
+        end
+
+        context "validate create quote for hybrid" do
+            it "returns quote is save" do
+                params = {
+                    "buildType" => "hybrid",
+                    "floors_residential" => 10,
+                    "apartments-residential" => 10
+                }
+
+                get :create,  params: params  ,format: :json
+
+                puts response
+                expect(response.body).to include('You are being')
+            end
+        end
+
+        context "validate create quote for corporate" do
+            it "returns quote is save" do
+                params = {
+                    "buildType" => "corporate",
+                    "floors_residential" => 14,
+                    "apartments-residential" => 17
+                }
+
+                get :create,  params: params  ,format: :json
+
+                puts response
+                expect(response.body).to include('You are being')
+            end
+        end
+
+        context "validate create quote for residential" do
+            it "returns quote is save" do
+                params = {
+                    "buildType" => "residential",
+                    "floors_residential" => 15,
+                    "apartments-residential" => 17
                 }
 
                 get :create,  params: params  ,format: :json
