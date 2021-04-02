@@ -345,3 +345,130 @@ Streamer
 Finished in 0.00722 seconds (files took 1.48 seconds to load)
 2 examples, 0 failures
 
+2021-04-02 17:37:31 WARN Selenium [DEPRECATION] Selenium::WebDriver::Chrome#driver_path= is deprecated. Use Selenium::WebDriver::Chrome::Service#driver_path= instead.
+
+QuotesController
+  GET #create
+    verifies that the buildings function in the intervention controller works correctly
+===========START================
+{"format"=>"json", "controller"=>"quotes", "action"=>"create"}
+=============END================
+      returns that the function works successfully
+    validate create quote for commercial
+===========START================
+{"apartments-residential"=>"14", "buildType"=>"commercial", "floors_residential"=>"4", "format"=>"json", "controller"=>"quotes", "action"=>"create"}
+=============END================
+#<ActionDispatch::TestResponse:0x00007fa3debc5ca8>
+      returns quote is save
+    validate create quote for hybrid
+===========START================
+{"apartments-residential"=>"10", "buildType"=>"hybrid", "floors_residential"=>"10", "format"=>"json", "controller"=>"quotes", "action"=>"create"}
+=============END================
+#<ActionDispatch::TestResponse:0x00007fa3dec9fb88>
+      returns quote is save
+    validate create quote for corporate
+===========START================
+{"apartments-residential"=>"17", "buildType"=>"corporate", "floors_residential"=>"14", "format"=>"json", "controller"=>"quotes", "action"=>"create"}
+=============END================
+#<ActionDispatch::TestResponse:0x00007fa3decf5ee8>
+      returns quote is save
+    validate create quote for residential
+===========START================
+{"apartments-residential"=>"17", "buildType"=>"residential", "floors_residential"=>"15", "format"=>"json", "controller"=>"quotes", "action"=>"create"}
+=============END================
+#<ActionDispatch::TestResponse:0x00007fa3ded57c60>
+      returns quote is save
+
+Lead
+  is not valid without an email
+  is not valid without a company name
+  is not valid without a full name of contact
+  is not valid without a phone of contact
+  is not valid without a name of a project
+  is not valid without a description of a project
+  is not valid without a description of the department in charge of the elevators
+  is not valid without a message
+  is not valid without a file name or topic
+  is not valid without a customer ID
+
+Streamer
+  getContent
+    Check the retuned value
+{"activity":"Learn how to iceskate or rollerskate","type":"recreational","participants":1,"price":0.1,"link":"","key":"5947957","accessibility":0.25}
+<div style='margin:0 auto; width:80%'>
+                                        
+                                        <p><label>Activity:</label><label>Learn how to iceskate or rollerskate</label></p>
+                                        <p><label>Type:</label><label>recreational</label></p>
+                                        <p><label>Participants:</label><label>1</label></p>
+                                        <p><label>Price:</label><label>0.1</label></p>
+                                        <p><label>Get Working</label></p>
+                                    </div>
+<div style='margin:0 auto; width:80%'>
+                                        
+                                        <p><label>Activity:</label><label>Learn how to iceskate or rollerskate</label></p>
+                                        <p><label>Type:</label><label>recreational</label></p>
+                                        <p><label>Participants:</label><label>1</label></p>
+                                        <p><label>Price:</label><label>0.1</label></p>
+                                        <p><label>Get Working</label></p>
+                                    </div>
+      check if the returned value containt a html tags
+{"activity":"Go swimming with a friend","type":"social","participants":2,"price":0.1,"link":"","key":"1505028","accessibility":0.1}
+<div style='margin:0 auto; width:80%'>
+                                        
+                                        <p><label>Activity:</label><label>Go swimming with a friend</label></p>
+                                        <p><label>Type:</label><label>social</label></p>
+                                        <p><label>Participants:</label><label>2</label></p>
+                                        <p><label>Price:</label><label>0.1</label></p>
+                                        <p><label>Get Working</label></p>
+                                    </div>
+<div style='margin:0 auto; width:80%'>
+                                        
+                                        <p><label>Activity:</label><label>Go swimming with a friend</label></p>
+                                        <p><label>Type:</label><label>social</label></p>
+                                        <p><label>Participants:</label><label>2</label></p>
+                                        <p><label>Price:</label><label>0.1</label></p>
+                                        <p><label>Get Working</label></p>
+                                    </div>
+      check if the returned value is not empty
+{"activity":"Start a webinar on a topic of your choice","type":"education","participants":1,"price":0,"link":"","key":"6826029","accessibility":0.9}
+<div style='margin:0 auto; width:80%'>
+                                        
+                                        <p><label>Activity:</label><label>Start a webinar on a topic of your choice</label></p>
+                                        <p><label>Type:</label><label>education</label></p>
+                                        <p><label>Participants:</label><label>1</label></p>
+                                        <p><label>Price:</label><label>0</label></p>
+                                        <p><label>Get Working</label></p>
+                                    </div>
+<div style='margin:0 auto; width:80%'>
+                                        
+                                        <p><label>Activity:</label><label>Start a webinar on a topic of your choice</label></p>
+                                        <p><label>Type:</label><label>education</label></p>
+                                        <p><label>Participants:</label><label>1</label></p>
+                                        <p><label>Price:</label><label>0</label></p>
+                                        <p><label>Get Working</label></p>
+                                    </div>
+      check if the returned value is a string
+{"activity":"Start a book you've never gotten around to reading","type":"relaxation","participants":1,"price":0.1,"link":"","key":"7114122","accessibility":0.1}
+<div style='margin:0 auto; width:80%'>
+                                        
+                                        <p><label>Activity:</label><label>Start a book you've never gotten around to reading</label></p>
+                                        <p><label>Type:</label><label>relaxation</label></p>
+                                        <p><label>Participants:</label><label>1</label></p>
+                                        <p><label>Price:</label><label>0.1</label></p>
+                                        <p><label>Get Working</label></p>
+                                    </div>
+<div style='margin:0 auto; width:80%'>
+                                        
+                                        <p><label>Activity:</label><label>Start a book you've never gotten around to reading</label></p>
+                                        <p><label>Type:</label><label>relaxation</label></p>
+                                        <p><label>Participants:</label><label>1</label></p>
+                                        <p><label>Price:</label><label>0.1</label></p>
+                                        <p><label>Get Working</label></p>
+                                    </div>
+      check if the returned value comtains the word activity
+      check if the returned value comtains an argument
+
+Finished in 1.91 seconds (files took 8 seconds to load)
+20 examples, 0 failures
+
+Coverage report generated for RSpec to /Users/mac/Desktop/codeboxx/Odyssey/Week 10/Elevators-media-streamer/coverage. 345 / 375 LOC (92.0%) covered.
