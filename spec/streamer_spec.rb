@@ -49,7 +49,6 @@ describe Streamer do
                 streamer  = Streamer.new 
                 expect { streamer.getContent()}.to raise_error { |error|
                                expect(error).to be_a(RuntimeError)}
-
             end
   
         end
